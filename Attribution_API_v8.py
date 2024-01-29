@@ -1,6 +1,7 @@
 """
 1. Calling getDetails made to an API call
 2. Extraction of photo moved from getDetails function to here
+First upload to gitgub
 """
 
 
