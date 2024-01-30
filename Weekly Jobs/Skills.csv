@@ -1,0 +1,426 @@
+Skill
+.net
+".net core"
+abap
+"abap on hana"
+"access management"
+"active directory"
+adobe
+"adobe forms"
+agile
+"agile development"
+"agile scrum"
+aix
+"aix administration"
+ajax
+algorithms
+alv
+"analytical skills"
+analytics
+android
+angular
+angularjs
+ansible
+apache
+apex
+api
+appdynamics
+"application development"
+"application security"
+"application support"
+"architectural design"
+"artificial intelligence"
+asp.net
+"asset accounting"
+auditing
+automation
+automotive
+autosar
+aws
+"aws cloud"
+"aws glue"
+"aws lambda"
+azure
+"azure cloud"
+"azure data factory"
+"azure data lake"
+"azure databricks"
+"azure synapse"
+backend
+backup
+badi
+badis
+banking
+bapi
+bapis
+basis
+bgp
+"big data"
+billing
+bluetooth
+bootstrap
+brocade
+"business analysis"
+"business process"
+"business solutions"
+c++
+"capacity management"
+"capacity planning"
+cassandra
+ccna
+ccnp
+cds
+"cds views"
+"change management"
+ci/cd
+cics
+cisco
+"cisco firewall"
+"cisco routers"
+"cisco switches"
+cloud
+"cloud computing"
+"cloud platform"
+cloudera
+cnn
+cobol
+"communication protocols"
+"communication skills"
+"computer vision"
+"configuration management"
+"core java"
+crm
+css
+css3
+"customer service"
+das
+"data analysis"
+"data analytics"
+"data architecture"
+"data bricks"
+"data dictionary"
+"data engineering"
+"data management"
+"data migration"
+"data modeling"
+"data processing"
+"data quality"
+"data science"
+"data security"
+"data structures"
+"data visualization"
+"data warehousing"
+"database administration"
+"database design"
+"database migration"
+dataguard
+db2
+dbms
+"deep learning"
+deployment
+"design development"
+"design patterns"
+devops
+dhcp
+"digital transformation"
+"disaster recovery"
+"distribution system"
+django
+dns
+docker
+ecc
+edi
+edifact
+eigrp
+embedded
+emc
+"emc storage"
+emr
+enhancements
+"entity framework"
+erp
+etl
+exadata
+excel
+fico
+figma
+finance
+"financial services"
+firewall
+firmware
+flask
+flume
+fortigate
+"front end"
+"functional testing"
+gcp
+git
+"golden gate"
+"google cloud"
+hacmp
+hadoop
+hana
+hbase
+hdfs
+healthcare
+hibernate
+hive
+hsrp
+html
+html5
+http
+i2c
+"ibm db2"
+idms
+idoc
+idocs
+iis
+illustrator
+"image processing"
+implementation
+ims
+"incident management"
+informatica
+infrastructure
+"inprocess inspection"
+integration
+"interpersonal skills"
+ios
+"ios development"
+"it services"
+itil
+j2ee
+java
+javascript
+jcl
+jdbc
+jenkins
+jira
+jmeter
+jpa
+jquery
+json
+jsp
+"jupyter notebook"
+kafka
+"kafka streams"
+keras
+kotlin
+kubernetes
+lan
+"lan troubleshooting"
+ldap
+linux
+"linux administration"
+"load balancing"
+"load runner"
+logistics
+lsmw
+"machine learning"
+mainframe
+"manager quality assurance"
+"manager technology"
+mapreduce
+matlab
+maven
+"medical insurance"
+"memory management"
+microservices
+"microsoft azure"
+middleware
+"mobile app designing"
+"mobile application"
+"mobile applications"
+mongodb
+"monitoring tools"
+mpls
+"ms access"
+"ms office"
+"ms sql"
+multithreading
+mvvm
+mysql
+"mysql database administration"
+nas
+"natural language processing"
+netapp
+netweaver
+"network administration"
+"network engineering"
+"network security"
+"network support"
+"network troubleshooting"
+networking
+"neural networks"
+nim
+node.js
+nosql
+numpy
+"object oriented programming"
+"objective c"
+odata
+"oo abap"
+ooad
+oops
+oozie
+opencv
+operations
+oracle
+orchestration
+"os installation"
+ospf
+paas
+packaging
+pandas
+payroll
+pdf
+pega
+"pega prpc"
+"performance optimization"
+"performance testing"
+"performance tuning"
+perl
+photoshop
+php
+pl/sql
+plsql
+postgresql
+"power bi"
+powershell
+"problem management"
+procurement
+"product management"
+"production support"
+"project management"
+pyspark
+python
+pytorch
+"quality management"
+quantum
+rabbitmq
+raid
+rdbms
+react.js
+recruitment
+"redhat linux"
+research
+rest
+"rest api"
+"rest webservices"
+restful
+rfc
+rhel
+ricef
+ricefw
+"risk management"
+"router configuration"
+routing
+rtos
+"s/4 hana"
+"s4 hana"
+saas
+sales
+salesforce
+sap
+"sap abap"
+"sap basis"
+"sap bi"
+"sap crm"
+"sap ecc"
+"sap fico"
+"sap fiori"
+"sap hana"
+"sap hcm"
+"sap implementation"
+"sap mm"
+"sap netweaver"
+"sap pi"
+"sap s hana"
+"sap scripts"
+"sap sd"
+"sap support"
+"sap workflow"
+scala
+scheduling
+schema
+scikit-learn
+scripting
+scrum
+sdk
+selenium
+"service management"
+"shell scripting"
+simulation
+simulink
+sip
+smartforms
+smb
+soa
+soap
+soc
+"social media"
+"software configuration management"
+"software design"
+"software development life cycle"
+"software engineering"
+solman
+"sonar cube"
+sonarqube
+spark
+spi
+splunk
+spring
+"spring boot"
+sql
+"sql database"
+"sql queries"
+"sql server"
+sqlite
+sqoop
+ssl
+"stored procedures"
+stp
+swift
+"switch configuration"
+switching
+sybase
+"system administration"
+"technical documentation"
+telecom
+tensorflow
+teradata
+terraform
+"test scripts"
+testing
+triggers
+typescript
+uart
+"unit testing"
+unix
+"unix shell scripting"
+usb
+"user management"
+"version control"
+virtualization
+"visual basic"
+"visual source safe"
+"visual studio"
+vlan
+"vlan configuration"
+vmware
+vpn
+vrrp
+vsam
+wan
+"web api"
+"web services"
+"web technologies"
+webdynpro
+wellness
+wifi
+"windows server"
+wireless
+workflow
+x12
+xml
+xslt
