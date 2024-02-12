@@ -70,9 +70,8 @@ def ITJobs(sSkill,driver):
             #Details['Location'] = 'Retail'
             #Get Experience
             try:
-                Xpath = "/html/body/div/div/main/div[1]/div[1]/section[1]/div[1]/div[2]/div[1]/div[1]/span"
-                txtExp = driver.find_element_by_xpath(Xpath)
-                # txtExp = driver.find_element_by_class_name('styles_jhc__exp-salary-container__NXsVd')
+                Xpath = "/html/body/div[1]/div/main/div[1]/div[1]/section[2]/div[1]/div"
+                txtExp = driver.find_element_by_class_name('styles_jhc__exp__k_giM')
                 Details['Experience'] = txtExp.text
             except:
                 pass
