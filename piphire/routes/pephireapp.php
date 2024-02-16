@@ -334,3 +334,79 @@ Route::get('/allskills', function (Request $request) {
 
     return response()->json($skills);
 });
+
+Route::get('/buildings', function (Request $request) {
+
+    //Log::error($request);
+
+    $buildings = DB::connection('pephireapp')
+
+        ->table('buildings')
+
+        ->select('building_name as name','building_color as color','id',DB::raw('"floors" as type'),DB::raw('"buildings.png" as icon'))
+
+        ->get();
+
+    return response()->json($buildings);
+});
+
+Route::get('/floors', function (Request $request) {
+
+    //Log::error($request);
+
+    $floors = DB::connection('pephireapp')
+
+        ->table('floors')
+
+        ->select('floor_name as name','floor_color as color','id',DB::raw('"rooms" as type'),DB::raw('"Floors.png" as icon'))
+        ->where('building_id', $request->loaderid)
+        ->get();
+
+    return response()->json($floors);
+});
+
+Route::get('/rooms', function (Request $request) {
+
+    //Log::error($request);
+
+    $rooms = DB::connection('pephireapp')
+
+        ->table('rooms')
+
+        ->select('room_name as name','room_color as color','id',DB::raw('"cameras" as type'),DB::raw('"rooms.png" as icon'))
+        ->where('floor_id', $request->loaderid)
+        ->get();
+
+    return response()->json($rooms);
+});
+
+Route::get('/cameras', function (Request $request) {
+
+    //Log::error($request);
+
+    $rooms = DB::connection('pephireapp')
+
+        ->table('cameras')
+        ->where('room_id', $request->loaderid)
+        ->get();
+
+    return response()->json($rooms);
+});
+
+Route::get('/mymatches', function (Request $request) {
+
+    $newdata = DB::connection('pephireapp')
+
+        ->table('kca_matches')
+
+        ->select('kca_matches.id as matchid', 'kca_matches.match_name','kca_matches.match_date', 'kca_matches.umpire_fees', 'kca_matches.venue')
+
+        ->join('matchtostudent', 'matchtostudent.matchid', '=', 'kca_matches.id')
+
+        ->where('matchtostudent.studentid', $request->studentid)
+
+        ->get();
+
+
+    return response()->json($newdata);
+});
